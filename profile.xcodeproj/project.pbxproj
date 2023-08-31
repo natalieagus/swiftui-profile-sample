@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810010B72AA0797600FA4869 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810010B62AA0797600FA4869 /* CarouselView.swift */; };
+		810010BA2AA07DF700FA4869 /* JannyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810010B92AA07DF700FA4869 /* JannyCard.swift */; };
+		810010BC2AA07E3400FA4869 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810010BB2AA07E3400FA4869 /* ProfileImage.swift */; };
+		810010BE2AA07E3900FA4869 /* JKCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810010BD2AA07E3900FA4869 /* JKCard.swift */; };
+		810010C02AA07ECE00FA4869 /* GlenCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810010BF2AA07ECE00FA4869 /* GlenCard.swift */; };
 		8152AAF22A98A58300A7645B /* profileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152AAF12A98A58300A7645B /* profileApp.swift */; };
 		8152AAF42A98A58300A7645B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152AAF32A98A58300A7645B /* ContentView.swift */; };
 		8152AAF62A98A58700A7645B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8152AAF52A98A58700A7645B /* Assets.xcassets */; };
@@ -43,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810010B62AA0797600FA4869 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		810010B92AA07DF700FA4869 /* JannyCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JannyCard.swift; sourceTree = "<group>"; };
+		810010BB2AA07E3400FA4869 /* ProfileImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		810010BD2AA07E3900FA4869 /* JKCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKCard.swift; sourceTree = "<group>"; };
+		810010BF2AA07ECE00FA4869 /* GlenCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlenCard.swift; sourceTree = "<group>"; };
 		8152AAEE2A98A58300A7645B /* profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = profile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8152AAF12A98A58300A7645B /* profileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileApp.swift; sourceTree = "<group>"; };
 		8152AAF32A98A58300A7645B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +99,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810010B82AA07C5600FA4869 /* GroupCard */ = {
+			isa = PBXGroup;
+			children = (
+				810010B92AA07DF700FA4869 /* JannyCard.swift */,
+				810010BF2AA07ECE00FA4869 /* GlenCard.swift */,
+				810010BB2AA07E3400FA4869 /* ProfileImage.swift */,
+				810010B62AA0797600FA4869 /* CarouselView.swift */,
+				810010BD2AA07E3900FA4869 /* JKCard.swift */,
+			);
+			path = GroupCard;
+			sourceTree = "<group>";
+		};
 		8152AAE52A98A58300A7645B = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +134,7 @@
 		8152AAF02A98A58300A7645B /* profile */ = {
 			isa = PBXGroup;
 			children = (
+				810010B82AA07C5600FA4869 /* GroupCard */,
 				817DE4872A99B77800DA134D /* Helper */,
 				8152AAF12A98A58300A7645B /* profileApp.swift */,
 				8152AAF32A98A58300A7645B /* ContentView.swift */,
@@ -309,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8152AB222A98A88700A7645B /* CardBackName.swift in Sources */,
+				810010C02AA07ECE00FA4869 /* GlenCard.swift in Sources */,
 				8152AAF42A98A58300A7645B /* ContentView.swift in Sources */,
 				8152AB242A98A92200A7645B /* CardFlipView.swift in Sources */,
 				8152AB282A98AC4F00A7645B /* ColorExtension.swift in Sources */,
@@ -318,6 +342,10 @@
 				8152AB1C2A98A75B00A7645B /* FlashCard.swift in Sources */,
 				8152AB2A2A98B04900A7645B /* CustomCardView.swift in Sources */,
 				8152AB1E2A98A7C800A7645B /* Glow.swift in Sources */,
+				810010BA2AA07DF700FA4869 /* JannyCard.swift in Sources */,
+				810010BE2AA07E3900FA4869 /* JKCard.swift in Sources */,
+				810010BC2AA07E3400FA4869 /* ProfileImage.swift in Sources */,
+				810010B72AA0797600FA4869 /* CarouselView.swift in Sources */,
 				8152AAF22A98A58300A7645B /* profileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
